@@ -54,6 +54,6 @@ def caesar(encode_or_decode, text, shift):
                 output_index += len(alphabet)
             output_text += alphabet[output_index]
 
-    print(f"Output text : {output_text}")
+    print(f"Here is the {encode_or_decode}d result : {output_text}")
 
 caesar(direction, text, shift)
